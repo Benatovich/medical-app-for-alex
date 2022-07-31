@@ -5,15 +5,8 @@ import {
   useParams,
 } from 'react-router-dom';
 import './App.css';
-
-// const tummyAche = [
-//   {
-//     category: 'Tummy Ache',
-//     id: 'tummy',
-//     description: 'tummy ache :(',
-
-//   }
-// ]
+import TryPooping from './components/TryPooping';
+import SeeDoctor from './components/SeeDoctor';
 
 function TummyAche() {
   // custom hook we get from react router dom for nested routing
